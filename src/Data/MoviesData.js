@@ -15,14 +15,14 @@ export const Movies = [
   {
     name: "Army of The Dead",
     desc: "Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod There",
-    titleImage: "1a.jpg",
+    titleImage: "2a.jpg",
     image: "2.jpg",
     category: "Western",
     language: "English",
     year: "2022",
     time: "3hr",
     video: "",
-    rate: 3.4,
+    rate: 3.5,
     reviews: 23,
   },
   {
