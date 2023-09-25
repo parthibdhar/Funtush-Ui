@@ -16,12 +16,12 @@ const MoviesPage = () => {
     <Layout>
       <div class=" min-height-screen container mx-auto px-2 my-6">
         <Filters />
-        <p className="text-lg font-medium my-6">
+        <p className="text-lg font-medium my-6 px-3">
           Total &nbsp;{" "}
           <span className="font-bold text-subMain"> {Movies?.length} </span>{" "}
           &nbsp; items &nbsp; Found
         </p>
-        <div className="grid sm:mt-12 mt-6 xl:grid-cols-4 lg:grid-cols-3  grid-cols-1 gap-10">
+        <div className="grid sm:mt-12 mt-6 xl:grid-cols-4 lg:grid-cols-3  grid-cols-1 gap-10 px-3">
           {Movies?.slice(0,page)?.map((movie, index) => (
             <Movie index={index} movie={movie} />
           ))}

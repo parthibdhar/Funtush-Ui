@@ -13,11 +13,11 @@ export const Movies = [
     reviews: 23,
   },
   {
-    name: "Army of The Dead",
+    name: "The Conjuring 3",
     desc: "Lorem ipsum dolor sit amet, consecetur adipiscing elseddo eiusmod There",
     titleImage: "2a.jpg",
     image: "2.jpg",
-    category: "Western",
+    category: "Action",
     language: "English",
     year: "2022",
     time: "3hr",
@@ -143,3 +143,79 @@ export const Movies = [
     reviews: 23,
   },
 ];
+
+export const UsersData = [
+  {
+    name: "J.Depp",
+    fulName: "Johnny Depp",
+    image: "jdp.jpeg",
+    rate: 4,
+    message: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus ipsum porro, eligendi eius suscipit temporibus non expedita earum exercitationem illum corrupti soluta consequatur. Suscipit?"
+  },
+  {
+    name: "J.Depp",
+    fulName: "Johnny Depp",
+    image: "jdp.jpeg",
+    rate: 4,
+    message: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus ipsum porro, eligendi eius suscipit temporibus non expedita earum exercitationem illum corrupti soluta consequatur. Suscipit?"
+  },
+  {
+    name: "J.Depp",
+    fulName: "Johnny Depp",
+    image: "jdp.jpeg",
+    rate: 4,
+    message: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus ipsum porro, eligendi eius suscipit temporibus non expedita earum exercitationem illum corrupti soluta consequatur. Suscipit?"
+  },
+  {
+    name: "J.Depp",
+    fulName: "Johnny Depp",
+    image: "jdp.jpeg",
+    rate: 4,
+    message: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus ipsum porro, eligendi eius suscipit temporibus non expedita earum exercitationem illum corrupti soluta consequatur. Suscipit?"
+  },
+  {
+    name: "J.Depp",
+    fulName: "Johnny Depp",
+    image: "jdp.jpeg",
+    message: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus ipsum porro, eligendi eius suscipit temporibus non expedita earum exercitationem illum corrupti soluta consequatur. Suscipit?"
+  },
+  {
+    name: "J.Depp",
+    fulName: "Johnny Depp",
+    image: "jdp.jpeg",
+    rate: 4,
+    message: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus ipsum porro, eligendi eius suscipit temporibus non expedita earum exercitationem illum corrupti soluta consequatur. Suscipit?"
+  },
+  {
+    name: "J.Depp",
+    fulName: "Johnny Depp",
+    image: "jdp.jpeg",
+    rate: 4,
+    message: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus ipsum porro, eligendi eius suscipit temporibus non expedita earum exercitationem illum corrupti soluta consequatur. Suscipit?"
+  },
+  {
+    name: "J.Depp",
+    fulName: "Johnny Depp",
+    image: "jdp.jpeg",
+    rate: 4,
+    message: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus ipsum porro, eligendi eius suscipit temporibus non expedita earum exercitationem illum corrupti soluta consequatur. Suscipit?"
+  },
+  {
+    name: "J.Depp",
+    fulName: "Johnny Depp",
+    image: "jdp.jpeg",
+    rate: 4,
+    message: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus ipsum porro, eligendi eius suscipit temporibus non expedita earum exercitationem illum corrupti soluta consequatur. Suscipit?"
+  },
+  {
+    name: "J.Depp",
+    fulName: "Johnny Depp",
+    image: "jdp.jpeg",
+    rate: 4,
+    message: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus ipsum porro, eligendi eius suscipit temporibus non expedita earum exercitationem illum corrupti soluta consequatur. Suscipit?"
+  },
+
+
+
+
+]
