@@ -210,7 +210,7 @@ const Filters = () => {
           </Transition>
         </div>
       </Listbox>
-
+ 
       <Listbox value={category} onChange={(e) => setCategory(e)}>
         <div className="relative">
           <Listbox.Button className="relative border border-grey-800 w-full text-white bg-main rounded-lg cursor-default py-4 pl-6 pr-10 text-left text-xs  ">
@@ -310,6 +310,7 @@ const Filters = () => {
           </Transition>
         </div>
       </Listbox>
+     
     </div>
   );
 };
