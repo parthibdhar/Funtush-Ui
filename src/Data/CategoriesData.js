@@ -1,59 +1,73 @@
 export const CategoriesData = [
     {
         _id: 1,
-        title: 'Drama'
+        title: 'Drama',
+        image:'favicon.png'
     },
     {
         _id: 2,
-        title: 'Romance'
+        title: 'Romance',
+        image:'favicon.png'
     },
     {
 
         _id: 3,
-        title: 'Thriller'
+        title: 'Thriller',
+        image:'favicon.png'
     },
     {
         _id: 4,
-        title: 'Action'
+        title: 'Action',
+        image:'favicon.png'
     },
     {
         _id: 5,
-        title: 'Science fiction'
+        title: 'Science fiction',
+        image:'favicon.png'
     },
     {
         _id: 6,
-        title: 'Mystery'
+        title: 'Mystery',
+        image:'favicon.png'
     },
     {
         _id: 7,
-        title: 'Horror'
+        title: 'Horror',
+        image:'favicon.png'
     },
     {
         _id: 8,
-        title: 'Comedy'
+        title: 'Comedy',
+        image:'favicon.png'
     },
     {
         _id: 9,
-        title: 'Adventure'
+        title: 'Adventure',
+        image:'favicon.png'
     },
     {
         _id: 10,
-        title: 'Documentary'
+        title: 'Documentary',
+        image:'favicon.png'
     },
     {
         _id: 11,
-        title: 'Action comedy'
+        title: 'Action comedy',
+        image:'favicon.png'
     },
     {
         _id: 12,
-        title: 'Documentary'
+        title: 'Documentary',
+        image:'favicon.png'
     },
     {
         _id: 13,
-        title: 'Sports'
+        title: 'Sports',
+        image:'favicon.png'
     },
     {
         _id: 14,
-        title: 'Gangster film'
+        title: 'Gangster film',
+        image:'favicon.png'
     },
 ]

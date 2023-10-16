@@ -60,7 +60,7 @@ const SideBar = ({ children }) => {
 
   return (
     <Layout>
-      <div className="max-h-screen container mx-auto px-2">
+      <div className="min-h-screen container mx-auto px-2">
         <div className="xl:grid grid-cols-8 gap-10 items-start md:py-12 py-6 ">
           <div className="sticky col-span-2 bg-dry border border-gray-800 p-6 rounded-md xl:mb-0 mb-5">
             {
