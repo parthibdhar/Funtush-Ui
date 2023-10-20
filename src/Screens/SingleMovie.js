@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Layout from "../Layout/Layout";
 import { useParams } from "react-router-dom";
 import { Movies } from "../Data/MoviesData";
@@ -8,15 +8,22 @@ import MovieRates from "../Components/Single/MovieRates";
 import Titles from "../Components/Titles";
 import { BsCollectionFill } from "react-icons/bs";
 import Movie from "../Components/Movie";
+import ShareMovieModal from "../Components/Modals/ShareMovieModal";
 
 const SingleMovie = () => {
+  const [moddalOpen, setModdalOpen] = useState(false)
   const { id } = useParams();
   console.log(id);
   const movie = Movies.find((movie) => movie.name === id);
   const RelatedMovies = Movies.filter((m) => m.category === movie?.category);
   return (
     <Layout>
-      <Movieinfo movie={movie} />
+      <ShareMovieModal 
+      modalOpen={moddalOpen}
+      setModalOpen={setModdalOpen}
+      movie={movie}
+      />
+      <Movieinfo movie={movie} setModalOpen={setModdalOpen} />
       {/* ----------- *issue* share div is not in single row ------------------- */}
       <div className="container mx-auto min-h-screen px-2 my-6 ">
         <MovieCasts />

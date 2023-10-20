@@ -22,8 +22,6 @@ const TopRated = () => {
       
       navigation={{nextEl, prevEl}}
       // navigation={true}
-        spaceBetween={40}
-        slidesPerView={4}
         loop={true}
         speed={1000}
         autoplay={{
@@ -31,13 +29,33 @@ const TopRated = () => {
           disableOnInteraction: false,
         }}
         modules={[Navigation, Autoplay]}
+        breakpoints={{
+          0: {
+            slidesPerView: 1,
+            spaceBetween:10
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween:20
+
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween:30
+
+          },
+          1280: {
+            slidesPerView: 4,
+            spaceBetween: 40,
+          },
+        }}
         className="w-full xl:h-96 bg-dry lg:h-64 h-48"
       >
 {
   Movies.map((movie,index) => (
 
     <SwiperSlide key={index}>
-      <div className="p-4 h-rate hovered border border-border bg-dry rounded-lg overflow-hidden">
+      <div className="p-4 h-rate  hovered border border-border bg-dry rounded-lg overflow-hidden">
         <img src={`/images/movies/${movie.image}`} 
         alt={movie.name} 
         className=' w-full h-full object-cover rounded-lg'/>
