@@ -19,30 +19,36 @@ import Categories from './Screens/DashBoard/Admin/Categories';
 import Users from './Screens/DashBoard/Admin/Users';
 import AddMovie from './Screens/DashBoard/Admin/AddMovie';
 import ScrollOnTop from './ScrollOnTop';
+import { ChakraProvider } from '@chakra-ui/react'
+import DrawerContext from './Context/DrawerContext';
 function App() {
   AOS.init()
   return (
-    <ScrollOnTop>
-      <Routes >
-        <Route path='/' element={<HomeScreen />} />
-        <Route path='/about-us' element={<About />} />
-        <Route path='/contact-us' element={<Contact />} />
-        <Route path='/movies' element={<MoviesPage />} />
-        <Route path='/movies/:id' element={<SingleMovie />} />
-        <Route path='/watch/:id' element={<WatchPage />} />
-        <Route path='/login' element={<Login />} />
-        <Route path='/register' element={<Register />} />
-        <Route path='/profile' element={<Profile />} />
-        <Route path='/password' element={<Password />} />
-        <Route path='/favorites' element={<FavoriteMovies />} />
-        <Route path='/movieslist' element={<MoviesList />} />
-        <Route path='/dashboard' element={<DashBoard />} />
-        <Route path='/categories' element={<Categories />} />
-        <Route path='/users' element={<Users />} />
-        <Route path='/addmovie' element={<AddMovie />} />
-        <Route path='/*' element={<NotFound />} />
-      </Routes>
-    </ScrollOnTop>
+    <ChakraProvider>
+      <DrawerContext>
+        <ScrollOnTop>
+          <Routes >
+            <Route path='/' element={<HomeScreen />} />
+            <Route path='/about-us' element={<About />} />
+            <Route path='/contact-us' element={<Contact />} />
+            <Route path='/movies' element={<MoviesPage />} />
+            <Route path='/movies/:id' element={<SingleMovie />} />
+            <Route path='/watch/:id' element={<WatchPage />} />
+            <Route path='/login' element={<Login />} />
+            <Route path='/register' element={<Register />} />
+            <Route path='/profile' element={<Profile />} />
+            <Route path='/password' element={<Password />} />
+            <Route path='/favorites' element={<FavoriteMovies />} />
+            <Route path='/movieslist' element={<MoviesList />} />
+            <Route path='/dashboard' element={<DashBoard />} />
+            <Route path='/categories' element={<Categories />} />
+            <Route path='/users' element={<Users />} />
+            <Route path='/addmovie' element={<AddMovie />} />
+            <Route path='/*' element={<NotFound />} />
+          </Routes>
+        </ScrollOnTop>
+      </DrawerContext>
+    </ChakraProvider>
   );
 }
 
