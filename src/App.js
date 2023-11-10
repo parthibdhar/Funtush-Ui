@@ -25,7 +25,7 @@ function App() {
   AOS.init()
   return (
     <ChakraProvider>
-      <DrawerContext>
+      <DrawerContext >
         <ScrollOnTop>
           <Routes >
             <Route path='/' element={<HomeScreen />} />

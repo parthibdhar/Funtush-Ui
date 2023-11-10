@@ -95,8 +95,8 @@ const Footer = () => {
           ))}
           <div className="pb-3.5 sm:pb-0 col-span-1 md:col-span-2 lg:col-span-3">
                     <Link to={'/'}>
-                        <img src="images/logo(1).png" 
-                        alt="logo(1)"
+                        <img src="http://172.27.48.1:3000/images/logo(1).png" 
+                        alt="logo"
                         className="w-2/4 object-contain h-20"  />
                     </Link>
                     <p className="leading-7 txt-sm text-border mt-3">
