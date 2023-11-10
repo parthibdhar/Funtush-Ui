@@ -1,18 +1,11 @@
 import React, { Fragment, useState } from "react";
 import { CategoriesData } from "../Data/CategoriesData";
+import { yearData } from "../Data/yearData";
 import { Listbox, Transition } from "@headlessui/react";
 import { FaAngleDown, FaCheck } from "react-icons/fa";
 
 const Filters = () => {
-  const yearData = [
-    
-    { _id: 1, title: "1700 - 1800" },
-    { _id: 2, title: "1800 - 1900" },
-    { _id: 3, title: "1900 - 2000" },
-    { _id: 4, title: "2000 - 2010" },
-    { _id: 5, title: "2010 - 2030" },
-  ];
-
+  
   const timeData = [
     { title: "1 -5 Hours" },
     { title: "5 -10 Hours" },
