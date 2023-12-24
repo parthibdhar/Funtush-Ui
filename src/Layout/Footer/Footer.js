@@ -107,8 +107,7 @@ const Footer = () => {
                       <br />
                       <span>Tell: +91 9674 320 582</span>
                       <br />
-                      <span>Email: parthibdhar3123@gmail.com</span>
-                        
+                      <span>Email: parthibdhar3123@gmail.com</span>   
                     </p>
           </div>
         </div>

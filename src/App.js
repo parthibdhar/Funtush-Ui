@@ -28,7 +28,7 @@ function App() {
       <DrawerContext >
         <ScrollOnTop>
           <Routes >
-            <Route path='/' element={<HomeScreen />} />
+            <Route path='/' element={<HomeScreen />}  />
             <Route path='/about-us' element={<About />} />
             <Route path='/contact-us' element={<Contact />} />
             <Route path='/movies' element={<MoviesPage />} />
